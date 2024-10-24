@@ -1,0 +1,168 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  flex: 1;
+  background-color: #f0f5f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.bank-sampah-title {
+  display: flex;
+  justify-content: center;
+  color: #2d4b42;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.bank-sampah-title h2 {
+  margin: 0;
+}
+
+.welcome-text {
+  text-align: center;
+  color: #2d4b42;
+  margin-bottom: 20px;
+}
+
+.welcome-text h2 {
+  font-size: 24px;
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 90px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 60vh;
+}
+
+.right-container {
+  flex: 1;
+  background-color: #2d4b42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+}
+
+.right-container h1 {
+  display: flex;
+  font-size: 36px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.right-container p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.right-container a {
+  color: #a0d8b3;
+  text-decoration: none;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password-icon {
+  position: absolute;
+  right: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  font-weight: bold;
+  font-size: 0.8em;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.agree-terms {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 60px;
+}
+
+.agree-terms input {
+  margin-right: 5px;
+}
+
+.agree-terms label {
+  font-size: 0.9em;
+}
+
+button[type="signup"] {
+  background-color: #ffffff;
+  color: #2d4b42;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button[type="signup"]:hover {
+  background-color: #a0d8b3;
+}
+
+p.error {
+  color: red;
+  font-size: 12px !important;
+  align-self: start;
+  justify-self: start;
+  margin-bottom: 15px;
+  padding-left: 70px;
+  margin-top: 0px;
+}
